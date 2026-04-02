@@ -1,5 +1,3 @@
-Here is the full README file as plain text. Copy everything below into a file named `README.md`.
-
 # Quick UV-5R Repeater Programmer
 
 A simple terminal-based Python tool for quickly programming a single memory channel in a Baofeng UV-5R.
