@@ -49,13 +49,13 @@ python3 -m pip install pyserial
 On macOS or Linux:
 
 ```bash
-python3 quick_repeater_tines.py --port /dev/cu.usbserial-XXXX
+python3 quick_repeater_tones.py --port /dev/cu.usbserial-XXXX
 ```
 
 On Windows:
 
 ```bash
-python quick_repeater_tines.py --port COM3
+python quick_repeater_tones.py --port COM3
 ```
 
 Replace the port name with the one used by your cable.
@@ -176,5 +176,3 @@ That is expected behavior with some clone/write workflows.
 ## Use at your own risk
 
 This is a simple utility for hobby and practical ham use. Double-check your frequency, offset, and tone settings before writing to the radio.
-
-If your script filename is actually `quick_repeater_tones.py` instead of `quick_repeater_tines.py`, replace those two command lines with the correct filename.
